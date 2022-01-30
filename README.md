@@ -26,15 +26,14 @@ Also note that the VM can supoort simulation of Alveo U200 boads too.
    ```bash
 	dmesg | grep tty
    ```
-    
-	Above command will list serial ports e.g. tty0, ttyUSB0, ttyUSB1 etc. 
+   
+   - Above command will list serial ports e.g. tty0, ttyUSB0, ttyUSB1 etc. 
    - Run 
 	
    ```bash
 	sudo picocom /dev/ttyUSB1 -b 115200 -l
    ```
-     
-	in the terminal.
+   
    - Turn on the board. You should see the following messages in the piccom terminal
 	
    ```bash
