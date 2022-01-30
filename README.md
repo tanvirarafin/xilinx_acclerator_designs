@@ -56,9 +56,7 @@ Also note that the VM can supoort simulation of Alveo U200 boads too.
 
    - It should show program prints and XRT debug info.
 
-   ```
-   TEST PASSED
-   ```
+
    
 ## Additional Information
 
