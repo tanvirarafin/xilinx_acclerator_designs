@@ -21,18 +21,28 @@ Also note that the VM can supoort simulation of Alveo U200 boads too.
    - Write **/home/mta/workspace/vadd_system/Hardware/package/sd_card.img** into SD Card with SD Card image writer applications like Etcher on Windows or dd on Linux.
    - Put the SD card in ZCU104 board. On the board SW6 configuration switches shpuld be set as: switch 1 should be in ON condition and Switch 2-4 Should be in OFF condition.
    - Connect the serial cable with the board and the host PC.
-   - Check serial port connection. ```bash dmesg | grep tty```
-    Above command will list serial ports e.g. tty0, ttyUSB0, ttyUSB1 etc. 
-   - Run ```bash
+   - Check serial port connection. 
+
+	```bash 
+	dmesg | grep tty
+	```
+    
+	Above command will list serial ports e.g. tty0, ttyUSB0, ttyUSB1 etc. 
+   - Run 
+	
+	```bash
 	sudo picocom /dev/ttyUSB1 -b 115200 -l
 	```
-     in the terminal.
+     
+	in the terminal.
    - Turn on the board. You should see the following messages in the piccom terminal
-	```
+	
+	```bash
 	Xilinx Zynq MP First Stage Boot Loader 
 	Release 2021.2   Oct 20 2021  -  22:38:02
 	...
 	``` 
+   
    - Using the piccom terminal, go to auto mounted FAT32 partition
 
    ```bash
