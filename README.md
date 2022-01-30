@@ -60,7 +60,7 @@ Also note that the VM can supoort simulation of Alveo U200 boads too.
    TEST PASSED
    ```
    
-# Additional Information
+## Additional Information
 	- https://github.com/Xilinx/Vitis-Tutorials/tree/2021.2/Vitis_Platform_Creation/Introduction/02-Edge-AI-ZCU104
 	- Youtube video on how to set up Vitis for ZCU 104 using pre-built packages: https://www.youtube.com/watch?v=mEzQ4EUg3mQ
 	- Additional details on how to setup Vitis for Alveo U200 emulation: https://xilinx.github.io/xup_compute_acceleration/setup_local_computer.html
