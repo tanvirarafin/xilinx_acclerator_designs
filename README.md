@@ -23,9 +23,8 @@ Also note that the VM can supoort simulation of Alveo U200 boads too.
    - Connect the serial cable with the board and the host PC.
    - Check serial port connection.
      ```bash
-	dmesg | grep tty
-	```
-	Above command will list serial ports e.g. tty0, ttyUSB0, ttyUSB1 etc. 
+	dmesg | grep tty```
+    Above command will list serial ports e.g. tty0, ttyUSB0, ttyUSB1 etc. 
    - Run ```bash
 	sudo picocom /dev/ttyUSB1 -b 115200 -l
 	```
@@ -52,7 +51,7 @@ Also note that the VM can supoort simulation of Alveo U200 boads too.
 
    ```
    TEST PASSED
-
+   ```
 # Additional Information
 	- https://github.com/Xilinx/Vitis-Tutorials/tree/2021.2/Vitis_Platform_Creation/Introduction/02-Edge-AI-ZCU104
 	- Youtube video on how to set up Vitis for ZCU 104 using pre-built packages: https://www.youtube.com/watch?v=mEzQ4EUg3mQ
