@@ -55,9 +55,13 @@ Also note that the VM can supoort simulation of Alveo U200 boads too.
    ```
 
    - It should show program prints and XRT debug info.
+   ```
+   TEST PASSED
+   ```
 
+## Running Vector Addition Application on the Board
 
-   
+   - 
 ## Additional Information
 
 	- Detailed set-up instructions https://github.com/Xilinx/Vitis-Tutorials/tree/2021.2/Vitis_Platform_Creation/Introduction/02-Edge-AI-ZCU104
