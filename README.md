@@ -23,21 +23,21 @@ Also note that the VM can supoort simulation of Alveo U200 boads too.
    - Connect the serial cable with the board and the host PC.
    - Check serial port connection. 
 
-	```bash 
+   ```bash
 	dmesg | grep tty
 	```
     
 	Above command will list serial ports e.g. tty0, ttyUSB0, ttyUSB1 etc. 
    - Run 
 	
-	```bash
+   ```bash
 	sudo picocom /dev/ttyUSB1 -b 115200 -l
 	```
      
 	in the terminal.
    - Turn on the board. You should see the following messages in the piccom terminal
 	
-	```bash
+   ```bash
 	Xilinx Zynq MP First Stage Boot Loader 
 	Release 2021.2   Oct 20 2021  -  22:38:02
 	...
